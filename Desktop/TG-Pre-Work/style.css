@@ -27,3 +27,16 @@ p {
     color: maroon;
   }
   .title{color: teal;}
+
+  p {
+    font-family: Arial;
+  }
+  
+  h1 {
+    color: maroon;
+  }
+  
+  .title {
+    color: teal;
+  }
+  .uppercase{text-transform: uppercase;}
