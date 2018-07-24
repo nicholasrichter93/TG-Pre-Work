@@ -122,3 +122,26 @@ p {
   }
   
   .cursive{font-family: cursive;}
+
+  p {
+    font-family: Arial;
+  }
+  
+  h1 {
+    color: maroon;
+  }
+  
+  .title {
+    color: teal;
+  }
+  
+  .uppercase {
+    text-transform: uppercase;
+  }
+  .publish-time {
+    color: gray;
+  }
+  
+  .cursive{font-family: cursive;}
+  
+  .capitalize{text-transform: capitalize;}
