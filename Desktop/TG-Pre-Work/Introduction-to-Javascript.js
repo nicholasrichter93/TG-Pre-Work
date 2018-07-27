@@ -32,3 +32,5 @@ console.log('The doctors were puzzled by the fact that it wasn\'t quite jaundice
 console.log('If it became jaundice they could treat it.');
 console.log('If it didn\'t become jaundice and went away they could discharge him.');
 console.log('But this just being short of jaundice all the time confused them.');*/
+
+// Beginning of Variables lesson.
