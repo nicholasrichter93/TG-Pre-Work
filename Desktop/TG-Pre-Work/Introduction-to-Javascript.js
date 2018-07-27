@@ -76,6 +76,8 @@ let myName = 'Nick';
 let myCity = 'Boulder';
 console.log(`My name is ${myName}. My favorite city is ${myCity}.`)
 
+//Beginning of Controls lesson. 
+
 let userName = 'Nick';
 let knowsJavaScript = true;
 
@@ -88,3 +90,15 @@ if (knowsJavaScript && userName) {
 } else {
   console.log('Great! Get ready to learn something new!');
 }
+
+//Creates a variable isSoccerFan and adds an if/else command. 
+
+let isSoccerFan = true;
+
+if(isSoccerFan = true){
+  console.log('Goal!');
+} 
+else{
+  console.log('No goal!')
+}
+
