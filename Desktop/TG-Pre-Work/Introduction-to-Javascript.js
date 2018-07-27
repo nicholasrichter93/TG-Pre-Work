@@ -70,3 +70,5 @@ particle*=6.02;
 
 // Increment assay by 1
 assay++;
+let favoriteAnimal='Albatross';
+console.log('My favorite animal: '+ favoriteAnimal);
