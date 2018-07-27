@@ -72,3 +72,6 @@ particle*=6.02;
 assay++;
 let favoriteAnimal='Albatross';
 console.log('My favorite animal: '+ favoriteAnimal);
+let myName = 'Nick';
+let myCity = 'Boulder';
+console.log(`My name is ${myName}. My favorite city is ${myCity}.`)
