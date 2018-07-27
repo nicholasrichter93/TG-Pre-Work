@@ -19,3 +19,7 @@ console.log(0.2708*100);
 console.log('Teaching the world how to code'.length);
 console.log('Codecademy'.toUpperCase());
 console.log('    Remove whitespace   '.trim()); 
+console.log(Math.random()*100);
+console.log(Math.floor(Math.random()*100));
+console.log(Math.ceil(43.8));
+console.log(Number.isInteger(2017));
