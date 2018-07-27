@@ -195,3 +195,21 @@ let favoritePhrase = 'Love That!';
 favoritePhrase === 'Love That!' ? console.log('I love that!') : console.log("I don't love that!");
 
 //Beginning of Functions lesson. 
+
+let calculatorIsOn = false;
+
+const pressPowerButton = () => {
+  if (calculatorIsOn) {
+    console.log('Calculator turning off.');
+    calculatorIsOn = false;
+  } else {
+    console.log('Calculator turning on.');
+    calculatorIsOn = true;
+  }
+};
+
+pressPowerButton();
+// Output: Calculator turning on.
+
+pressPowerButton();
+// Output: Calculator turning off.
