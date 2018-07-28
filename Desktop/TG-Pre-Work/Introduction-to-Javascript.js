@@ -293,3 +293,13 @@ function isGreaterThan (numberOne, numberTwo) {
 console.log('The volume of a sphere is ' + volumeOfSphere(10) + ' cubic centimeters');
 
 //Beginning of Scope lesson. 
+
+const satellite ='The Moon';
+const galaxy = 'The Milky Way';
+let stars = 'North Star';
+
+const myNightSky = () => {
+  return 'Night Sky: ' + satellite + ', ' + stars + ', ' + galaxy;
+};
+
+console.log(myNightSky());
