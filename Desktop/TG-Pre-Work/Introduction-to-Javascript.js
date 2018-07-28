@@ -354,3 +354,11 @@ console.log(bucketList);
 let newYearsResolutions = ['Call my mom more.', 'Eat well.','Make new frieds.'];
 
 console.log(newYearsResolutions);
+
+let newYearsResolutions = ['Call my mom more.', 'Eat well.','Make new frieds.'];
+
+console.log(newYearsResolutions);
+
+let listItem = newYearsResolutions[0];
+console.log(newYearsResolutions[2]);
+console.log(newYearsResolutions[3]);
