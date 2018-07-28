@@ -315,3 +315,11 @@ const myNightSky = () => {
 
 console.log(myNightSky());
 console.log(stars);
+
+const visibleLightWaves = () => {
+    let lightWaves = 'Moonlight';
+    console.log(lightWaves);
+  };
+  
+  visibleLightWaves();
+  console.log(lightWaves);
