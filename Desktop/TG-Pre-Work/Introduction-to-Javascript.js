@@ -352,3 +352,5 @@ const visibleLightWaves = () => {
 console.log(bucketList);
 
 let newYearsResolutions = ['Call my mom more.', 'Eat well.','Make new frieds.'];
+
+console.log(newYearsResolutions);
