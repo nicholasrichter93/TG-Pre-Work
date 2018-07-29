@@ -575,3 +575,11 @@ let person = {
     name: 'Nick',
     age: 24,
   };
+
+  let person = {
+    name: 'Nick',
+    age: 24,
+  };
+  
+  console.log(person.name);
+  console.log(person.age);
