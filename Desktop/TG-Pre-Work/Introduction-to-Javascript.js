@@ -612,3 +612,27 @@ let person = {
   }
   
   console.log(person[alarm]);
+
+  let person = {
+    name: 'Nick',
+    age: 24,
+    weekendAlarm: 'No alarms needed',
+    weekAlarm: 'Alarm set to 7AM'
+  };
+  
+  person.hobbies = ['Rock Climbing','Cooking']
+  
+  console.log(person['name']);
+  console.log(person['age']);
+  console.log(person.hobbies);
+  
+  let day = 'Sunday';
+  let alarm;
+  
+  if (day === 'Saturday' || day === 'Sunday' ) {
+    alarm = 'weekendAlarm';
+  } else {
+    alarm = 'weekAlarm';
+  }
+  
+  console.log(person[alarm]);
