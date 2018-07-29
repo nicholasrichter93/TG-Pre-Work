@@ -570,3 +570,8 @@ let smallerNums = nums.map(num => num - 5);
 nums.every(num => num < 0);
 
 //Beginning of Objects lesson. 
+
+let person = {
+    name: 'Nick',
+    age: 24,
+  };
