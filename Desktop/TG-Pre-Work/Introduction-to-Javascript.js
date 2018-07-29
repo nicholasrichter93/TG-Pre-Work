@@ -1192,3 +1192,8 @@ var sauce = "Eggs and cheese"; // ES6 syntax
 var carbonara = 'You can make carbonara with ' + pasta + ',' + meat+ ', and a sauce made with ' + sauce + '.';
 
 //Beginning of Modules lesson. 
+
+let Airplane = {};
+Airplane.myAirplane = "StarJet";
+
+module.exports = Airplane;
