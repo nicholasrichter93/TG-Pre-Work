@@ -1175,3 +1175,9 @@ let sauce = "Eggs and cheese"; // ES6 syntax
 
 // Template literals, like the one below, were introduced in ES6
 const carbonara = `You can make carbonara with ${pasta}, ${meat}, and a sauce made with ${sauce}.`;
+
+// Set the variable below to a number
+let esFivePercentageSupport = 96.85;
+
+// Set the variable below to a number
+let esSixTemplateLiterals = 88.72;
