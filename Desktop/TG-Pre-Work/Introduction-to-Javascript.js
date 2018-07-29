@@ -850,3 +850,5 @@ let person = {
   person.age = 39;
   
   console.log(person.age);
+
+  //Beginning of Classes lesson. 
