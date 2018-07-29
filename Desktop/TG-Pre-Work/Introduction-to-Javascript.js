@@ -661,3 +661,32 @@ let person = {
   }
   
   console.log(person[alarm]);
+
+  let person = {
+    name: 'Nick',
+    age: 24,
+    weekendAlarm: 'No alarms needed',
+    weekAlarm: 'Alarm set to 7AM',
+    sayHello: () => {
+      return 'Hello, there!'
+    }
+  };
+  
+  person.hobbies = ['Rock Climbing','Cooking'];
+  person.hobbies = ['Rock Climbing'];
+  
+  console.log(person['name']);
+  console.log(person['age']);
+  console.log(person.hobbies);
+  console.log(person.sayHello());
+  
+  let day = 'Sunday';
+  let alarm;
+  
+  if (day === 'Saturday' || day === 'Sunday' ) {
+    alarm = 'weekendAlarm';
+  } else {
+    alarm = 'weekAlarm';
+  }
+  
+  console.log(person[alarm]);
